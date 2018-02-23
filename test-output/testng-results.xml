@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationSampleTestSuite" duration-ms="280077" started-at="2018-02-23T00:52:05Z" finished-at="2018-02-23T00:56:45Z">
+    <groups>
+    </groups>
+    <test name="AutomationSampleTest" duration-ms="280077" started-at="2018-02-23T00:52:05Z" finished-at="2018-02-23T00:56:45Z">
+      <class name="com.sample.testcases.SignUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="29004" started-at="2018-02-23T11:52:15Z" finished-at="2018-02-23T11:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUpPageTitleTest()[pri:1, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="SignUpPageTitleTest" duration-ms="16" started-at="2018-02-23T11:52:44Z" finished-at="2018-02-23T11:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="748" started-at="2018-02-23T11:52:44Z" finished-at="2018-02-23T11:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="28540" started-at="2018-02-23T11:52:52Z" finished-at="2018-02-23T11:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="21274" started-at="2018-02-23T11:53:21Z" data-provider="getExcelData" finished-at="2018-02-23T11:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[What's your name?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="760" started-at="2018-02-23T11:53:42Z" finished-at="2018-02-23T11:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="29948" started-at="2018-02-23T11:53:43Z" finished-at="2018-02-23T11:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="1590" started-at="2018-02-23T11:54:13Z" data-provider="getExcelData" finished-at="2018-02-23T11:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[What's your name? Making it fail purposely]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Mandatory Message doesn't match expected [What's your name? Making it fail purposely] but found [What's your name?]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Mandatory Message doesn't match expected [What's your name? Making it fail purposely] but found [What's your name?]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.sample.pages.SignUpPage.signUpFieldValidation(SignUpPage.java:96)
+	at com.sample.testcases.SignUpPageTest.registerFacebook(SignUpPageTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="820" started-at="2018-02-23T11:54:14Z" finished-at="2018-02-23T11:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="28846" started-at="2018-02-23T11:54:15Z" finished-at="2018-02-23T11:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="1107" started-at="2018-02-23T11:54:44Z" data-provider="getExcelData" finished-at="2018-02-23T11:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sagayam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[You'll use this when you log in and if you ever need to reset your password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="753" started-at="2018-02-23T11:54:45Z" finished-at="2018-02-23T11:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="28666" started-at="2018-02-23T11:54:46Z" finished-at="2018-02-23T11:55:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="1595" started-at="2018-02-23T11:55:14Z" data-provider="getExcelData" finished-at="2018-02-23T11:55:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="759" started-at="2018-02-23T11:55:16Z" finished-at="2018-02-23T11:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="28495" started-at="2018-02-23T11:55:17Z" finished-at="2018-02-23T11:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="1177" started-at="2018-02-23T11:55:45Z" data-provider="getExcelData" finished-at="2018-02-23T11:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter a combination of at least six numbers, letters and punctuation marks (like ! and &).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="798" started-at="2018-02-23T11:55:46Z" finished-at="2018-02-23T11:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="setUp" is-config="true" duration-ms="27675" started-at="2018-02-23T11:55:47Z" finished-at="2018-02-23T11:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="registerFacebook" duration-ms="1500" started-at="2018-02-23T11:56:15Z" data-provider="getExcelData" finished-at="2018-02-23T11:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Russel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Terry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please choose a gender. You can change who can see this later.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.SignUpPageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="740" started-at="2018-02-23T11:56:16Z" finished-at="2018-02-23T11:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.testcases.SignUpPageTest -->
+      <class name="com.sample.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="setUp" is-config="true" duration-ms="8537" started-at="2018-02-23T11:52:05Z" finished-at="2018-02-23T11:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="LoginPageTitleTest" duration-ms="36" started-at="2018-02-23T11:52:14Z" finished-at="2018-02-23T11:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="tearDown" is-config="true" duration-ms="875" started-at="2018-02-23T11:52:14Z" finished-at="2018-02-23T11:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="setUp" is-config="true" duration-ms="5612" started-at="2018-02-23T11:52:45Z" finished-at="2018-02-23T11:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyFacebookLogo()[pri:2, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="VerifyFacebookLogo" duration-ms="67" started-at="2018-02-23T11:52:50Z" finished-at="2018-02-23T11:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFacebookLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="tearDown" is-config="true" duration-ms="999" started-at="2018-02-23T11:52:50Z" finished-at="2018-02-23T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="setUp" is-config="true" duration-ms="6165" started-at="2018-02-23T11:56:17Z" finished-at="2018-02-23T11:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginFacebook()[pri:3, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="LoginFacebook" duration-ms="21346" started-at="2018-02-23T11:56:23Z" finished-at="2018-02-23T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.testcases.LoginPageTest@3e9b1010]" name="tearDown" is-config="true" duration-ms="755" started-at="2018-02-23T11:56:45Z" finished-at="2018-02-23T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.testcases.LoginPageTest -->
+    </test> <!-- AutomationSampleTest -->
+  </suite> <!-- AutomationSampleTestSuite -->
+</testng-results>
